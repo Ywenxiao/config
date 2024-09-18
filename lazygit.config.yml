@@ -1,0 +1,31 @@
+gui:
+  nerdFontsVersion: "3"
+  scrollOffMargin: 10
+  language: 'en' # one of 'auto' | 'en' | 'zh' | 'pl' | 'nl'
+  theme:
+    activeBorderColor:
+      - green
+      - bold
+    inactiveBorderColor:
+      - white
+    optionsTextColor:
+      - blue
+    selectedLineBgColor:
+      - blue # set to `default` to have no background colour
+    selectedRangeBgColor:
+      - blue
+    cherryPickedCommitBgColor:
+      - cyan
+    cherryPickedCommitFgColor:
+      - blue
+    unstagedChangesColor:
+      - red
+    defaultFgColor:
+      - default
+    commitLength:
+        show: true
+
+os:
+  editCommand: 'code' # see 'Configuring File Editing' section
+  editCommandTemplate: '{{editor}} {{filename}}'
+  openCommand: 'code'
